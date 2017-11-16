@@ -1,11 +1,10 @@
-
 body{
-background: url("../../app/home/nightsky.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-padding-bottom: 800px;
+  background: url("../../app/home/nightsky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 800px;
 
 }
 h1 {
