@@ -1,0 +1,12 @@
+body{
+  background: url("../../app/publications/nightsky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 800px;
+
+}
+h1 {
+  color:red;
+}
