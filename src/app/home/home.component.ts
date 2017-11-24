@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeInAnimation } from '../animations/index';
+import { fadeInAnimation } from '../animations/fade-inAnimation';
+
 
 @Component({
   selector: 'app-home',
@@ -10,10 +11,12 @@ import { fadeInAnimation } from '../animations/index';
 })
 export class HomeComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }
 
