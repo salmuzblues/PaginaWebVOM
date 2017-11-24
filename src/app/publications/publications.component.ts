@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { upToDownAnimation } from '../animations/index';
+import {fadeInAnimation} from '../animations/fade-inAnimation';
 
 @Component({
   selector: 'app-publications',
   templateUrl: './publications.component.html',
-  animations: [ upToDownAnimation ],
-  host: { '[@upToDownAnimation]': '' },
+  animations: [ fadeInAnimation ],
+  host: { '[@fadeInAnimation]': '' },
   styleUrls: ['./publications.component.css']
 })
 export class PublicationsComponent implements OnInit {
