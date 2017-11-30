@@ -11,12 +11,13 @@ export class DropdownColorsDirective {
   @HostBinding ('class.open') get opened () {
      return this.isOpen;
   }
-
+  // this is for clicking  the box when mouse clicks
   @HostListener ('click') open() {
     this.isOpen = true;
     }
-  @HostListener('mouseleaves') close() {
-
+   // this is for clossing the box when mouse leaves
+  @HostListener('mouseleave') close() {
+    this.isOpen = false;
     }
 }
 

@@ -9,24 +9,6 @@ import {NavigationEnd, Router} from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  /* routerSubscription: Subscription;
 
-  constructor(private router: Router) {}
-
-  ngOnInit() {
-    this.routerSubscription = this.router.events
-      .filter(event => event instanceof NavigationEnd)
-      .subscribe(event => {
-        document.body.scrollTop = 0;
-      });
-  }
-
-  ngOnDestroy() {
-    this.routerSubscription.unsubscribe();
-  }
-  onDeactivate() {
-    document.body.scrollTop = 0;
-  }
-  */
 }
 

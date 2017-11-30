@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ScrollStoreModule } from 'scrollStore';
+import { DropdownColorsDirective } from './dropdown-colors.directive';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ScrollStoreModule } from 'scrollStore';
     HeaderComponent,
     HomeComponent,
     WorkComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    DropdownColorsDirective
   ],
   imports: [
     ScrollStoreModule,
@@ -30,7 +32,6 @@ import { ScrollStoreModule } from 'scrollStore';
     HttpModule,
     BrowserAnimationsModule,
     AppRouting
-
   ],
   providers: [],
   bootstrap: [AppComponent]

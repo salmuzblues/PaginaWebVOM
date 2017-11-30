@@ -11,4 +11,10 @@ h1 {
   color:red;
 }
 
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.dropdown-toggle {background-color: transparent;}
 
+.dropdown {background-color: transparent;}
