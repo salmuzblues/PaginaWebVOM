@@ -10,8 +10,6 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'work', component: WorkComponent},
   {path: 'publications', component: PublicationsComponent},
-
-  // otherwise redirect to home
   {path: '**', redirectTo: 'home'}
 
 ];
