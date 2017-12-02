@@ -5,31 +5,26 @@
 <!--<li routerLinkActive="active"><a routerLink="/publications">PUBLICATION</a></li>-->
 
 <div>
-  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar">qs</span>
-          <span class="icon-bar">qsf</span>
-          <span class="icon-bar">ds</span>
-        </button>
-        <a class="navbar-brand" href="#">VOM</a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#home" pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Home</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <span class="navbar-brand">Vegetables Orbis Market</span>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home" pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Home</a>
           </li>
-          <li>
-            <a href="#publication" pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Publications</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#publication" pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Publications</a>
           </li>
-          <li>
-            <a href="#work"  pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Works</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#work"  pageScroll [pageScrollInterruptible]="false" [pageScrollDuration]="1000">Works</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a class="nav-link"  href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Market</a></li>
         </ul>
       </div>
     </div>
