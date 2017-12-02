@@ -1,20 +1,26 @@
-
-<section id="home">
-  <div class="row" style="margin-bottom: 100%">
-    <!--<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height">-->
-    <!--VOM is the future-->
-    <!--</particles>-->
+<header>
+  <div style="max-width: 100%;">
+    <ngx-carousel class="banner" [inputs]="carouselBanner">
+      <ngx-item NgxCarouselItem *ngFor="let tile of carouselBannerItems; let i = index;">
+        <div class="bannerStyle" [style.background]="'url(' + tile + ')'">
+          <h1>{{i}}</h1>
+        </div>
+      </ngx-item>
+      <button NgxCarouselPrev class="leftRs">
+        <i class="fa fa-arrow-left" aria-hidden="true" style="color:white"></i>
+      </button>
+      <button NgxCarouselNext class="rightRs">
+        <i class="fa fa-arrow-right" aria-hidden="true" style="color:white"></i>
+      </button>
+    </ngx-carousel>
   </div>
-</section>
+</header>
 
-<section id="publication">
-  <div class="row" style="margin-bottom: 100%">
+<div class="container">
+  <div class="row">
     <h1>Publications Works </h1>
   </div>
-</section>
-
-<section id="work">
-  <div class="row" style="margin-bottom: 100%">
+  <div class="row">
     <h1> it works </h1>
   </div>
-</section>
+</div>

@@ -2,14 +2,3 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-nav{
-  border-radius: 0px;
-}
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #333;
-}
-
-.navbar-default{
-  background: rgb(47, 47, 47) none repeat scroll 0% 0%;
-}

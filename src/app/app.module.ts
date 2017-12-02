@@ -12,6 +12,7 @@ import { HomePageComponent } from './home-page/home.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ParticlesModule } from 'angular-particle';
 import { FooterComponent } from "./footer/footer.component";
+import { NgxCarouselModule } from 'ngx-carousel';
 
 @NgModule({
 	declarations: [
@@ -27,7 +28,8 @@ import { FooterComponent } from "./footer/footer.component";
 		BrowserAnimationsModule,
 		AppRouting,
 		NgxPageScrollModule,
-		ParticlesModule
+		ParticlesModule,
+		NgxCarouselModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
