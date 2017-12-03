@@ -13,13 +13,15 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ParticlesModule } from 'angular-particle';
 import { FooterComponent } from "./footer/footer.component";
 import { NgxCarouselModule } from 'ngx-carousel';
+import { CardTeamMemberComponent } from './card-team-member/card-team-member.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		HeaderComponent,
 		HomePageComponent,
-		FooterComponent
+		FooterComponent,
+		CardTeamMemberComponent
 	],
 	imports: [
 		BrowserModule,

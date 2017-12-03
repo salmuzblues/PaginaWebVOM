@@ -1,26 +1,60 @@
 <header>
-  <div style="max-width: 100%;">
-    <ngx-carousel class="banner" [inputs]="carouselBanner">
-      <ngx-item NgxCarouselItem *ngFor="let tile of carouselBannerItems; let i = index;">
-        <div class="bannerStyle" [style.background]="'url(' + tile + ')'">
-          <h1>{{i}}</h1>
-        </div>
-      </ngx-item>
-      <button NgxCarouselPrev class="leftRs">
-        <i class="fa fa-arrow-left" aria-hidden="true" style="color:white"></i>
-      </button>
-      <button NgxCarouselNext class="rightRs">
-        <i class="fa fa-arrow-right" aria-hidden="true" style="color:white"></i>
-      </button>
-    </ngx-carousel>
-  </div>
+    <div style="max-width: 100%;">
+        <ngx-carousel class="banner" [inputs]="carouselBanner">
+            <ngx-item NgxCarouselItem *ngFor="let tile of carouselBannerItems; let i = index;">
+                <div class="bannerStyle" [style.background]="'url(' + tile + ')'">
+                    <h1>{{i}}</h1>
+                </div>
+            </ngx-item>
+            <button NgxCarouselPrev class="leftRs">
+                <i class="fa fa-arrow-left" aria-hidden="true" style="color:white"></i>
+            </button>
+            <button NgxCarouselNext class="rightRs">
+                <i class="fa fa-arrow-right" aria-hidden="true" style="color:white"></i>
+            </button>
+        </ngx-carousel>
+    </div>
 </header>
 
-<div class="container">
-  <div class="row">
-    <h1>Publications Works </h1>
-  </div>
-  <div class="row">
-    <h1> it works </h1>
-  </div>
+<div>
+    <div class="container" style="padding: 0px 20px 0px 20px">
+
+        <section id="publication">
+            <div class="row">
+                <h1>Publications Works </h1>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="row">
+                <h1> it works </h1>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="row">
+                <div class="col-xs-12 section-title text-center" style="width:100%">
+                    <h2>Team</h2>
+                    <span class="section-divider"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-center-block">
+                    <app-card-team-member name="Y.C. Carranza-Alarcon"
+                                          position="CEO Founder"
+                                          urlProfile="assets/images/ycarranza.jpg"
+                                          urlFacebook="https://www.facebook.com/salmuz"
+                                          urlLinkedIn="https://www.linkedin.com/in/ycarranza/">
+                    </app-card-team-member>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-center-block">
+                    <app-card-team-member name="Xavier Mendoza-Castillo"
+                                          position="CEO Founder"
+                                          urlProfile="assets/images/xavier.png"
+                                          urlFacebook="https://www.facebook.com/jmendoza1988">
+                    </app-card-team-member>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>

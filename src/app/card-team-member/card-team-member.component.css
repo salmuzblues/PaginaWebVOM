@@ -1,0 +1,99 @@
+a:hover{
+    color: white;
+}
+
+.team-member-img {
+    width: 100%;
+    margin: auto;
+}
+
+.team-member-box {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(49,49,49, 0.9);
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    border-color: rgba(0, 0, 0, .1);
+    border-radius: 30px;
+}
+
+.team-member-box:hover {
+    background-color: #272727;
+}
+
+.team-member-box h5 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.team-member-box-2 h5 {
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.team-image-wrapper {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.team-image-wrapper .team-image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+    color: #fff;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    background-color: rgba(137, 128, 254, 0.2);
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+}
+
+.team-image-wrapper .team-image-hover .team-hover-content {
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.team-image-wrapper:hover .team-image-hover {
+    opacity: 1;
+}
+
+.team-image-hover:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.social-icons-light-hover {
+    color: #fff;
+    -webkit-transition: color 500ms;
+    -moz-transition: color 500ms;
+    -o-transition: color 500ms;
+    transition: color 500ms;
+}
+
+.social-icons-light-hover:hover {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.social-icon-title {
+    font-size: 24px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.50);
+    padding-bottom: 3px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.img-responsive { width: 100%; }

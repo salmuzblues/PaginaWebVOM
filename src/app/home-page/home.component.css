@@ -1,3 +1,7 @@
+section{
+    padding: 10px ;
+}
+
 .leftRs {
     position: absolute;
     margin: auto;
@@ -43,4 +47,10 @@
     background: rgba(0, 0, 0, 0.32);
     color: white;
     margin: 0;
+}
+
+.col-center-block{
+    float: none;
+    display: block;
+    margin: 0 auto;
 }
