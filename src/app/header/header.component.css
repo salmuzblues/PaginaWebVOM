@@ -7,7 +7,6 @@ body {
   display: block;
   height: 48px;
   width: 48px;
-  position: absolute;
   top: 0px;
   left: -40px;
   background: url('../../assets/images/vom.png') no-repeat 0px 0px;
