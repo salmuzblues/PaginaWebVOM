@@ -58,3 +58,18 @@ p{
   font-family: "Book Antiqua";
   text-align: center;
 }
+#navcontainer ul {
+  text-align: center;
+  margin: 0;
+  padding: 45px;
+  list-style-type: none;
+}
+
+#navcontainer ul li {
+  font-family: "Verdana", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 80px;
+  color: #2E86C1;
+  display: inline;
+}
