@@ -54,3 +54,7 @@ section{
     display: block;
     margin: 0 auto;
 }
+p{
+  font-family: "Book Antiqua";
+  text-align: center;
+}
