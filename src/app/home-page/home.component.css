@@ -55,7 +55,7 @@ section{
     margin: 0 auto;
 }
 p{
-  font-family: "Book Antiqua";
+  font-family: "Verdana" , sans-serif;
   text-align: center;
 }
 #navcontainer ul {
