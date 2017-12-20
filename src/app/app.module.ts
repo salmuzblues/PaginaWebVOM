@@ -11,7 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomePageComponent } from './home-page/home.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ParticlesModule } from 'angular-particle';
-import { FooterComponent } from "./footer/footer.component";
+import { FooterComponent } from './footer/footer.component';
 import { NgxCarouselModule } from 'ngx-carousel';
 import { CardTeamMemberComponent } from './card-team-member/card-team-member.component';
 
