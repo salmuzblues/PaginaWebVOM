@@ -21,9 +21,13 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/font-awesome/css/font-awesome.css",
-        "styles.css"
+        "styles.css",
+        "assets/style1.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/switchColor.js",
+        "../../../Library/Preferences/WebStorm2017.3/javascript/extLibs/__ajax.googleapis.com_ajax_libs_angularjs_1.2.27_angular.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -62,4 +66,5 @@
     },
     "component": {}
   }
+
 }

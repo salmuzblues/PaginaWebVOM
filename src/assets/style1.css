@@ -1,0 +1,10 @@
+
+.navbar {
+  transition: all .5s ease-out;
+}
+
+
+.min .navbar{
+  transition: all .5s ease-out;
+  background-color: #272727;
+}
