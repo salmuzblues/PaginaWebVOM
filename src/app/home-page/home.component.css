@@ -66,10 +66,37 @@ p{
 }
 
 #navcontainer ul li {
-  font-family: "Verdana", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 25px;
   font-weight: bold;
   padding: 80px;
   color: #2E86C1;
   display: inline;
 }
+.voemConcept{
+
+  background-image: url('/assets/images/vege.jpg') ;
+  background-repeat: no-repeat;
+  background-color: #7f7f7f;
+  background-size: cover !important;
+  width: 100%;
+  height: 48vh;
+}
+.centerLetra {
+  padding: 85px;
+
+}
+.centerLetra h1 {
+  font-family: "Lato" , sans-serif;
+  text-align: center;
+  color: #FBFCFC;
+  font-weight: lighter;
+}
+.centerLetra h2 {
+  font-family: "Lato" , sans-serif;
+  text-align: center;
+  color: #FBFCFC;
+  font-weight: lighter;
+}
+
+
