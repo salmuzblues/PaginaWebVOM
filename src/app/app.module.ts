@@ -14,6 +14,7 @@ import { ParticlesModule } from 'angular-particle';
 import { FooterComponent } from './footer/footer.component';
 import { NgxCarouselModule } from 'ngx-carousel';
 import { CardTeamMemberComponent } from './card-team-member/card-team-member.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CardTeamMemberComponent } from './card-team-member/card-team-member.com
 		HeaderComponent,
 		HomePageComponent,
 		FooterComponent,
-		CardTeamMemberComponent
+		CardTeamMemberComponent,
+		BlogPageComponent
 	],
 	imports: [
 		BrowserModule,
