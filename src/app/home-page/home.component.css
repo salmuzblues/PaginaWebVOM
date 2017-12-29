@@ -75,7 +75,7 @@ p{
 }
 .voemConcept{
 
-  background-image: url('/assets/images/vege.jpg') ;
+  background-image: url('/assets/images/field.jpg') ;
   background-repeat: no-repeat;
   background-color: #7f7f7f;
   background-size: cover !important;
@@ -84,19 +84,20 @@ p{
 }
 .centerLetra {
   padding: 85px;
-
 }
 .centerLetra h1 {
   font-family: "Lato" , sans-serif;
   text-align: center;
   color: #FBFCFC;
   font-weight: lighter;
+  font-size: 55px;
 }
 .centerLetra h2 {
   font-family: "Lato" , sans-serif;
   text-align: center;
   color: #FBFCFC;
   font-weight: lighter;
+  font-size: 35px;
 }
 
 
