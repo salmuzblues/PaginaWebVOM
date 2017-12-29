@@ -1,6 +1,39 @@
 
 <body>
 
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <div class="container">
+    <i class="icon-vom" aria-hidden="true"></i>
+    <span class="navbar-brand">
+            &nbsp;VOM
+        </span>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home" pageScroll [pageScrollInterruptible]="false"
+             [pageScrollDuration]="1000" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" pageScroll [pageScrollInterruptible]="false"
+             [pageScrollDuration]="1000">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog">Blog</a>
+        </li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Market</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="container">
 <!--  this is the header  of blog Home -->
   <div class="row">
@@ -36,14 +69,14 @@
                 <p>TIME Magazine called this blog “consistently clever” (no shit. This happened).
                   <a href="http://www.everywhereist.com/about/">Here’s the story</a>
                   of how it came to be, and a brief rundown of what’s wrong with me.</p>
-          </div><div id="text-7" class="widget widget_text"><h4 class="widget-title">More Stuff I Wrote</h4><div class="textwidget">
-          <ul class="featured-links">
+          </div><div ><h4 >More Stuff I Wrote</h4>
+          <ul >
             <li ><a href="http://www.everywhereist.com/best-of/">Best of The Blog &gt;</a></li>
             <li ><a href="http://www.everywhereist.com/book/">A Snippet of My Book &gt;</a></li>
             <li ><a href="http://www.everywhereist.com/archives/">The Archives &gt;</a></li>
-            <li class="likes"><a href="http://www.everywhereist.com/stuff-i-like/">People &amp; Stuff I Like &gt;</a></li>
+            <li ><a href="http://www.everywhereist.com/stuff-i-like/">People &amp; Stuff I Like &gt;</a></li>
           </ul></div>
-        </div></div></aside>
+        </div></aside>
     </div>
   </div>
   <br>
