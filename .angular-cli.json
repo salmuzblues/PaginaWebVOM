@@ -25,8 +25,7 @@
         "assets/style1.css"
       ],
       "scripts": [
-        "assets/switchColor.js",
-        "../../../Library/Preferences/WebStorm2017.3/javascript/extLibs/__ajax.googleapis.com_ajax_libs_angularjs_1.2.27_angular.js"
+        "assets/switchColor.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
