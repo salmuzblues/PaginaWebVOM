@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NgxCarouselModule } from 'ngx-carousel';
 import { CardTeamMemberComponent } from './card-team-member/card-team-member.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
+import { BlogPost1Component } from './blog-post/blog-post1/blog-post1.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { BlogPageComponent } from './blog-page/blog-page.component';
 		HomePageComponent,
 		FooterComponent,
 		CardTeamMemberComponent,
-		BlogPageComponent
+		BlogPageComponent,
+		BlogPost1Component
 	],
 	imports: [
 		BrowserModule,
