@@ -8,6 +8,7 @@ import {BlogPost1Component} from './blog-post/blog-post1/blog-post1.component';
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
   {path: 'blog', component: BlogPageComponent},
+  {path: 'post1', component: BlogPost1Component},
   {path: '**', redirectTo: 'home'}
 
 ];

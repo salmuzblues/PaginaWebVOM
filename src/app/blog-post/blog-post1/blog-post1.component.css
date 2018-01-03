@@ -1,0 +1,23 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color:white;
+  font-family: 'Open Sans', Arial, Verdana, Sans-Serif;
+  font-size: 17px;
+  line-height: 32px;
+  color: #242424;
+}
+
+.img-responsive{
+  width: 725px;
+}
+
+.icon-vom {
+  content: '';
+  display: block;
+  height: 48px;
+  width: 48px;
+  top: 0px;
+  left: -40px;
+  background: url('/../../assets/images/vom.png') no-repeat 0px 0px;
+}
