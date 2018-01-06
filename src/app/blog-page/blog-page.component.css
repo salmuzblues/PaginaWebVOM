@@ -7,7 +7,14 @@ body {
   line-height: 32px;
   color: #242424;
 }
-
+.picData img {
+  width: 350px ;
+  height: 240px;
+  /* making center the img*/
+  display: block;
+  margin: 0 auto;
+  /*---- final -- */
+}
 .img-responsive{
   width: 450px;
 }
@@ -22,8 +29,8 @@ body {
 }
 
 h4{
-  margin: 0 0 20px 0;
-  font-size: 19px;
+  margin: 0 0 18px 0;
+  font-size: 20px;
   line-height: 25px;
   color: #232323;
   letter-spacing: 2px;
@@ -54,5 +61,42 @@ li {
 .navbar{
   background: #85929E;
 }
+.decorationLink{
+  list-style-type: none;
+}
+.decorationLink li a:hover{
+  background-color:#D4EFDF ;
+  text-decoration: none;
+}
+
+li.theBestBlog {
+  height: 54px;
+  padding-left: 50px;
+  padding-top: 3px;
+  background: url('../../assets/images/bestBlog.png') no-repeat left top;
+}
+/*  Icons 40 * 40  */
+li.myBook {
+  height: 54px;
+  padding-left: 50px;
+  padding-top: 3px;
+  background: url('../../assets/images/book.png') no-repeat left top;
+}
+.stylish-button {
+  -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+  -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+  box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+  color:#333;
+  background-color: #FBEEE6;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:none;
+  font-size:18px;
+  font-weight:400;
+  padding:4px 16px;
+  font-family: 'Oswald';
+}
+
 
 
