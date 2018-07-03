@@ -1,0 +1,1 @@
+var app=angular.module("myApp",[]);app.directive("scroll",function(a){return function(l){angular.element(a).bind("scroll",function(){this.pageYOffset>=50?l.boolChangeClass=!0:l.boolChangeClass=!1,l.$apply()})}});
