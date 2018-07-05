@@ -4,11 +4,11 @@
         <ngx-carousel class="banner" [inputs]="carouselBanner">
             <ngx-item NgxCarouselItem *ngFor="let tile of carouselBannerItems; let i = index;">
                 <div class="bannerStyle" [style.background]="'url(' + tile + ')'">
-                    <h1>{{i}}</h1>
+                 <!--   <h1>{{i}}</h1> -->
                 </div>
             </ngx-item>
             <button NgxCarouselPrev class="leftRs">
-                <i class="fa fa-arrow-left" aria-hidden="true" style="color:white"></i>q
+                <i class="fa fa-arrow-left" aria-hidden="true" style="color:white"></i>
             </button>
             <button NgxCarouselNext class="rightRs">
                 <i class="fa fa-arrow-right" aria-hidden="true" style="color:white"></i>
